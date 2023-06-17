@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Cartoon Temple Building Kit/Scenes/Example Scene.unity
-    guid: 38db0cdf61e2a4943b22103487f1fd9d
+    path: Assets/Scenes/mainmenu.unity
+    guid: b2bf935a3cc7a134ea2825ac206095c0
+  - enabled: 1
+    path: Assets/Scenes/Example Scene 1.unity
+    guid: 16197d2e84fc51d4db2fcf40e2a3cc3a
   m_configObjects: {}
