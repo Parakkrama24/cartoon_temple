@@ -8,6 +8,16 @@ TagManager:
   - CinemachineTarget
   - plane01
   - plane02
+  - box1
+  - box10
+  - box2
+  - box3
+  - box4
+  - box5
+  - box6
+  - box7
+  - box8
+  - box9
   layers:
   - Default
   - TransparentFX

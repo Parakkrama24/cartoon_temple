@@ -9,6 +9,7 @@ public class EnterPlaymode : MonoBehaviour
     public float targetWeight=1;
     private Rigidbody rb;
     private bool isfreez;
+   public bool IsOneleg;
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -54,10 +55,12 @@ public class EnterPlaymode : MonoBehaviour
         if(Input.GetKey(KeyCode.J))
         {
             animator.SetBool("onlegJumpHold",false);
+            IsOneleg=true;
         }
         else
         {
             animator.SetBool("onlegJumpHold", true);
+            IsOneleg = false;
         }
     }
 }
